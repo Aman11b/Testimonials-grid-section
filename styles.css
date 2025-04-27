@@ -97,7 +97,6 @@ ol[role='list'] {
     --ff:"Barlow Semi Condensed", sans-serif;
     --fs: 13px;
 
-
 }
 
 body {
@@ -110,10 +109,10 @@ body {
 
 /* Mobile Version */
 @media (max-width :375px){
+
     .container {
-        
-        padding: 0 2rem;
-        height: 100vh;
+        padding:0 2rem;
+        min-height: 100vh;
 
         margin: 4rem 0;
 
@@ -147,9 +146,6 @@ body {
 
     /* Daniel card */
 
-    .Daniel_img {
-        border: 3px solid var(--purple-300);
-    }
     .Daniel_card {
         background-color: var(--purple-500);
         color: var(--purple-300); 
@@ -157,28 +153,104 @@ body {
     .Daniel_card > div > div {
         color: var(--purple-300);
     }
+    .Daniel_card > div > div > h2 {
+        color: var(--grey-100); 
+        font-weight: 500;
+    }
+    .Daniel_card > div > div > h3 {
+       font-weight: 500; 
+    }
     .Daniel_card > h1 {
         color: var(--white);
     }
+    .Daniel_card > p {
+        font-weight: 500;
+    }
+    .Daniel_img {
+        border: 3px solid var(--purple-300);
+    }
 
+
+    /* Jonathan card */
     .Jonathan_card{
-        background-color: var(--grey-400);
+        background-color: var(--grey-500);
         color:var(--white);
     }
-        
-    .Jeanette_card{
-        background-color: var(--white);
-        color: var(--Dark-Blue);
+    .Jonathan_img {
+        border: 3px solid var(--grey-200);
     }
-
-    .Patrick_card {
-        background-color: var(--grey-500);
+    .Jonathan_card > div > div {
+        color: var(--grey-200);
+    }
+    .Jonathan_card > div > div > h2 {
+        color: var(--grey-100); 
+        font-weight: 500;
+    }
+    .Jonathan_card > div > div > h3 {
+       font-weight: 500; 
+    }
+    .Jonathan_card > h1 {
         color: var(--white);
     }
+    .Jonathan_card > p {
+        font-weight: 500;
+    }
+     
     
+    /* Jeanette card */
+    .Jeanette_card{
+        background-color: var(--white);
+        color: var(--grey-500);
+    }
+    .Jeanette_img {
+        border: 3px solid var(--grey-500);
+    }
+    .Jeanette_card > div > div {
+        color: var(--grey-500);
+    }
+    .Jeanette_card > div > div > h2 {
+        color: var(--grey-500); 
+        font-weight: 500;
+    }
+    .Jeanette_card > div > div > h3 {
+       font-weight: 500; 
+    }
+    .Jeanette_card > h1 {
+        color: var(--grey-500);
+    }
+    .Jeanette_card > p {
+        font-weight: 500;
+    }
+
+
+    /* Patrick card */
+    .Patrick_card {
+        background-color: var(--Dark-Blue);
+        color: var(--grey-200);
+    }
+    .Patrick_img {
+        border: 3px solid var(--purple-500);
+    }
+    .Patrick_card > div > div {
+        font-weight: 500;
+    }
+    .Patrick_card > p {
+        font-weight: 500;
+    }
+    
+    /* Kira card */
     .Kira_card{
         background-color: var(--white);
-        color: var(--Dark-Blue);
+        color: var(--grey-500);
+    }
+    .Kira_img {
+        border: 3px solid var(--grey-500);
+    }
+    .Kira_card > div > div {
+        font-weight: 500;
+    }
+    .Kira_card > p {
+        font-weight: 500;
     }
 
 
